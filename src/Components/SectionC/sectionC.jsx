@@ -2,7 +2,7 @@ import "./sectionC.css"
 import Project from "../Project/project"
 import jumpingCastle from "/images/jumpingCastle.png"
 import Keeper from "/images/keeperapp.png";
-import Pictorial from "/images/Pictorial.png";
+
 
 
 function SectionC() {
@@ -17,10 +17,7 @@ function SectionC() {
 <div >
 <Project title="Bouncing castle hiring
 Website" siteimage={jumpingCastle} sitelink="https://jade-tanuki-07db8e.netlify.app/"></Project>
-<Project title="Pictorial web MERN application" 
-           siteimage={Pictorial} 
-           sitelink="https://pictorial.netlify.app/">
-           </Project>
+
            <Project title="keeper web application Interactive UI design" 
            siteimage={Keeper} 
            sitelink="https://robsonmanata.github.io/Keeper_app/">
