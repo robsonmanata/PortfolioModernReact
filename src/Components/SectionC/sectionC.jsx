@@ -2,7 +2,7 @@ import "./sectionC.css"
 import Project from "../Project/project"
 import jumpingCastle from "/images/jumpingCastle.png"
 import Keeper from "/images/keeperapp.png";
-import Pictorial from "/images/pictorial.png";
+import Pictorial from "/images/Pictorial.png";
 
 
 function SectionC() {
@@ -32,3 +32,4 @@ Website" siteimage={jumpingCastle} sitelink="https://jade-tanuki-07db8e.netlify.
 
 
 export default SectionC
+
