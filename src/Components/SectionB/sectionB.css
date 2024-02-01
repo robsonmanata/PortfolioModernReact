@@ -1,0 +1,37 @@
+.sectionB{
+  background-color:#EEEEEE ;  
+  display:flex;
+  
+  padding: 60px 0px 20px ;
+}
+b{
+    color:#FF8C32 ;
+    font-size:1.5em;
+}
+.discussiondiv{
+flex:50%;
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+
+& div:nth-child(1){
+    
+    width: 60%;
+        }
+
+}
+.experience{
+    flex:50%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    & div:nth-child(1){
+    
+        width: 60%;
+            }
+
+   
+}
+h6{
+    margin-top:0px;
+}

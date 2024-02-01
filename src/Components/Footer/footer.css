@@ -1,0 +1,24 @@
+.footer{
+    background-color:#eeee;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    padding: 10px 0px 10px 0px;
+    
+    
+}
+.footersocials a{
+    padding:0px 20px 0px 20px;
+    margin-top: 50px;
+    
+
+}
+.copyright p{
+    display: block;
+    font-size: 0.8em;
+    margin-top: 10px;
+    
+
+}

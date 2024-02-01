@@ -1,0 +1,178 @@
+.services1{
+    display:flex;
+    display: absolute;
+    justify-content:center;
+    background: rgb(255,255,255);
+    background: linear-gradient(
+    to bottom,
+    #eeee 0%,
+    #eeee 50%,
+    white 50%,
+    white 100%
+  );
+    
+    & div:nth-child(1){
+        background-color: #FF8C32;
+        width: 300px;
+        text-align: center;
+        padding: 60px 0px 60px 0px;
+        
+        
+        
+    }
+    & div:nth-child(2){
+        background-color: #424657;
+        width: 300px;
+        margin:0px 10px 0px 10px;
+        padding: 60px 0px 60px 0px;
+        text-align: center;
+    }
+    & div:nth-child(3){
+        background-color: #424657;
+        width: 300px;
+        padding: 60px 0px 60px 0px;
+        text-align: center;
+        
+    }
+
+   
+}
+
+.services{
+    display:flex;
+    display: absolute;
+    justify-content:center;
+    background: rgb(255,255,255);
+    background: linear-gradient(
+    to bottom,
+    #eeee 0%,
+    #eeee 50%,
+    white 50%,
+    white 100%
+  );
+    
+    & div:nth-child(1){
+        background-color: #FF8C32;
+        width: 300px;
+        text-align: center;
+        padding: 60px 0px 60px 0px;
+        animation-name:floatin ;
+        animation-duration:4s ;
+        
+        
+    }
+    & div:nth-child(2){
+        background-color: #424657;
+        width: 300px;
+        margin:0px 10px 0px 10px;
+        padding: 60px 0px 60px 0px;
+        text-align: center;
+    }
+    & div:nth-child(3){
+        background-color: #424657;
+        width: 300px;
+        padding: 60px 0px 60px 0px;
+        text-align: center;
+        animation-name:floatin2 ;
+        animation-duration:4s ; 
+    }
+
+   
+}
+@keyframes floatin {
+    from {opacity: 0}
+    to {opacity: 0.9}
+  }
+  @keyframes floatin2 {
+    from {opacity: 0}
+    to {opacity: 0.9}
+  }
+
+
+  @media (max-width: 768px) {
+    .services1{
+        display:flex;
+        display: absolute;
+        justify-content:center;
+        background: rgb(255,255,255);
+        background: linear-gradient(
+        to bottom,
+        #eeee 0%,
+        #eeee 50%,
+        white 50%,
+        white 100%
+      );
+        
+        & div:nth-child(1){
+            background-color: #FF8C32;
+            width: 100px;
+            text-align: center;
+            padding: 30px 0px 30px 0px;
+            
+            
+            
+        }
+        & div:nth-child(2){
+            background-color: #424657;
+            width: 100px;
+            margin:0px 10px 0px 10px;
+            padding: 30px 0px 30px 0px;
+            text-align: center;
+        }
+        & div:nth-child(3){
+            background-color: #424657;
+            width: 100px;
+            padding: 30px 0px 30px 0px;
+            text-align: center;
+            
+        }
+    
+       
+    }
+    
+    .services{
+        display:flex;
+        display: absolute;
+        justify-content:center;
+        background: rgb(255,255,255);
+        background: linear-gradient(
+        to bottom,
+        #eeee 0%,
+        #eeee 50%,
+        white 50%,
+        white 100%
+      );
+        
+        & div:nth-child(1){
+            background-color: #FF8C32;
+            width: 100px;
+            text-align: center;
+            padding: 30px 0px 30px 0px;
+            animation-name:floatin ;
+            animation-duration:4s ;
+            
+            
+        }
+        & div:nth-child(2){
+            background-color: #424657;
+            width: 100px;
+            margin:0px 10px 0px 10px;
+            padding: 30px 0px 30px 0px;
+            text-align: center;
+        }
+        & div:nth-child(3){
+            background-color: #424657;
+            width: 100px;
+            padding: 30px 0px 30px 0px;
+            text-align: center;
+            animation-name:floatin2 ;
+            animation-duration:4s ; 
+        }
+    
+       
+    }
+    h1{
+        font-size:1em;
+    }
+    
+  }

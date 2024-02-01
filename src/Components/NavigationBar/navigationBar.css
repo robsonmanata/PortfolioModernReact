@@ -1,0 +1,227 @@
+.navigation{
+    background-color: #fff;
+    overflow:visible;
+    display:flex;
+    align-items: baseline;
+    
+    
+
+    }
+    .imga{
+      
+        padding-right: 60%;
+       
+        
+     
+    }
+    .navigation a{
+      font-family: 'Saira Condensed', sans-serif;
+      font-weight:900px;
+      font-size: 1em;
+      margin-right: 5px;
+      margin-left: 5px;
+      color:#333646;
+      text-decoration: none;
+      
+      
+    }
+    
+    
+    img{
+    
+    height:40px;
+    width:40px;
+   
+    }
+    .dropbtn {
+      border: none;  
+    }
+    .dropdown{
+      height:2.5rem;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      
+      
+      
+    }
+    .dropdown-content1{
+      display: none;
+      position: absolute;
+      
+      
+    }
+    button{
+      font-family: 'Saira Condensed', sans-serif;
+      background: #ffaf29;
+      color: white;
+      font-size: 1rem;
+      border: 0px;
+      font-weight: 900px;
+      border-radius: 3px;
+      animation-name: shake;
+animation-duration: 1s;
+animation-delay: 3s;
+    }
+    
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+    
+    span{
+        margin:6px;
+        width:30px;
+        height:4px ;
+        background-color: black;
+        display: block;
+        transition: width 2s;
+        transition: transform 1s;     
+    }
+    
+/* stop here */
+    .humburger ,.humburger1{
+      display:none; 
+    }
+    
+    
+    .dropdown a:hover {color: #ffaf29;}
+     a:hover {color: #ffaf29;}
+    
+     
+    
+    
+     @media (max-width: 768px) {
+
+      .imga{
+        padding-right: 60%;
+        
+        & a:nth-child(1){
+          display: inline-block;
+        }
+       
+
+      }
+      button{
+        display:none;
+      }
+      .dropdown-content1 button{
+        display:block;
+        padding: 10px;
+        margin-bottom:10px;
+        margin-left:10px;
+      }
+         .navigation a{
+          display: none;
+        }
+        .dropdown{
+          width: 100px;
+        }
+
+        .humburger1{
+          width: 40px;
+          margin: 0px 0px 9px 60px;
+          display: block;
+         padding: 0.1px;
+      
+        & span:nth-child(1){
+          width: 30px;
+          animation-name: example1;
+          animation-duration: 300ms;
+          animation-delay: 0s;
+          animation-fill-mode: forwards;
+      
+            
+            transition: transform 100ms ease;  
+        }
+        & span:nth-child(2){
+            visibility: hidden;
+            animation-name: example2;
+          animation-duration: 140ms;
+          animation-delay: 0s;
+          animation-fill-mode: forwards;
+        }
+        & span:nth-child(3){
+          width: 30px;
+          animation-name: example;
+          animation-duration: 300ms;
+          animation-delay: 0s;
+          animation-fill-mode: forwards;
+           
+        };
+              
+        }
+        @keyframes example {
+          0%   {transform: translate(0px,8px)}
+          50%  {transform: translate(0px,-8px);}
+          100%  {transform: matrix(1,-1,1,1,1,-9);}
+         
+        }
+        @keyframes example1 {
+          0%   {transform: translate(0px,-8px)}
+          50%  {transform: translate(0px,8px);}
+          100%  {transform: matrix(1,1,1,-1,0,9);}
+         
+        }
+        @keyframes example2 {
+          0%   {visibility: visible;}
+          100%  {visibility: hidden;}
+         
+        }
+        
+        .humburger{ 
+          margin: 0px 0px 9px 60px;
+          display:block;
+          padding: 0.1px;
+          
+
+          & span:nth-child(1){
+            width: 30px; 
+            transition: transform 100ms ease;   
+          }
+          & span:nth-child(2){
+              visibility: visible;
+          }
+          & span:nth-child(3){
+            width: 30px;
+            transition: transform 100ms ease;
+          };
+          
+        }
+
+        .dropdown a {
+          color: rgb(3, 3, 3);
+          text-decoration: none;
+          display: block;  
+        }
+
+        .dropdown-content1{
+            display: block;
+            position: absolute;
+            background-color:white;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            width: 97%;
+            
+            
+          } 
+          .dropdown-content1 a{
+            display: block;
+            padding:10px
+          }
+        
+      }
+  

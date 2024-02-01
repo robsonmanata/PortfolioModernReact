@@ -1,0 +1,17 @@
+.messagesent{
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+.msgimg{
+    width:200px;
+    height: 200px;
+
+}
+
+.messagesent img {
+    width: 100%;
+    height: 100%
+}

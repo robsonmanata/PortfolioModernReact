@@ -1,0 +1,144 @@
+.first-section{
+    background-color:white;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 60px 0px 60px ;
+    
+    
+  
+    }
+    h1{
+      margin-bottom:0px;
+      font-size: 2em;
+    
+     
+    }
+    .left-item{
+    background-color:white;
+    flex:25%;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+
+    & div:nth-child(1){
+      margin:auto;
+    }
+    & div:nth-child(2){
+      margin:auto;
+    }
+    
+  
+    
+    }
+    .left-item h1{
+      font-size:3em;
+    }
+    .left-item a{
+    display: block;
+    padding: 10px;
+    }
+    .highlight{
+      color: black;
+    }
+    .spanName{
+      display: inline-block;
+      width: 30%;
+      background-color: #ffaf29;
+      padding-left: 10px ;
+      padding-right: 10px;
+      margin-left: 0px;
+      
+      
+      
+    }
+    
+
+    .left-item1{
+      background-color:white;
+      flex:50%;
+      display:flex;
+      flex-wrap:wrap;
+      
+
+      }
+      .left-item1 {
+       
+
+        & div:nth-child(1){
+
+width:400px;
+margin:auto;
+animation-name: example12;
+  animation-duration: 4s;
+        }
+        & div:nth-child(2){
+ margin:auto;         
+width:400px;
+animation-name: example13;
+  animation-duration: 4s;
+        }
+      }
+
+    .right-item{
+    flex:25%;
+    margin: auto;
+    
+  
+    }
+    @keyframes example12 {
+      from {opacity: 0;left:790px}
+      to {opacity: 0.9;left:810px}
+    }
+    @keyframes example13 {
+      from {opacity: 0;left:830px}
+      to {opacity: 0.9;left:810px}
+    }
+    p{
+      font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+    }
+    .right-item img{
+      height: 100%;
+      width:100%;
+      animation-name: box;
+  animation-duration: 1s;
+   
+    }
+    @keyframes box {
+      from {margin-top:0px,}
+      to {margin-top: 50px}
+    }
+
+    @media (max-width: 600px) {
+      .right-item, .left-item {
+        flex: 20%;
+      }
+
+      .left-item1 {
+       
+
+        & div:nth-child(1){
+
+width:90vw;
+margin:auto;
+animation-name: example12;
+  animation-duration: 4s;
+        }
+        & div:nth-child(2){
+ margin:auto;         
+width:90vw;
+animation-name: example13;
+  animation-duration: 4s;
+        }
+      }
+
+      .first-section{
+        
+        padding: 0px 0px 0px ;
+        
+        
+      
+        }
+    }
+
+    
