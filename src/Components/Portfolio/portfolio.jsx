@@ -1,7 +1,7 @@
 import "./portfolio.css";
 import Project from "../Project/project";
 import jumpingCastle from "/images/jumpingCastle.png";
-import Pictorial from "/images/pictorial.png";
+import Pictorial from "/images/Pictorial.png";
 import Storelocatore from "/images/storelocater.png";
 import Dogfinder from "/images/dogTinder.png";
 import Keeper from "/images/keeperapp.png";
