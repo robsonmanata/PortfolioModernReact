@@ -53,13 +53,13 @@ a{
 @media (max-width: 728px) {
     .project{
         flex:25%; 
-        max-width: 100px; 
+        max-width: 200px; 
     
     
     }
     .imgContainer{
         width: 100%;
-        max-width: 100px;
+        max-width: 200px;
         
         border-radius: 5px;
         
