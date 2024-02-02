@@ -35,7 +35,7 @@ import {Link} from 'react-router-dom';
     <a onClick={()=>{myProps.scrollSection(myProps.services);myProps.setStartAnimation(); animation()}} > <Link to="/">Services</Link></a>
     
     <a href="#"><Link to="/Portfolio/portfolio">Portfolio</Link></a>
-    <a href="#"><Link to="/Blog/blog">Blog</Link></a>
+    <a onClick={()=>animation()}><Link to="/Blog/blog">Blog</Link></a>
     <a onClick={()=>{myProps.scrollSection(myProps.hireMe) ; animation()}}><button><Link to="/">Hire me</Link></button></a>
     
     </div> 
