@@ -17,7 +17,7 @@ import {Link} from 'react-router-dom';
       <div> 
 <div className="navigation">
 <div className="imga">
-<a><Link to="/">
+<a onClick={()=>animation()} ><Link to="/">
 <img  src={logo} alt="logo"></img>
 </Link>
 </a>
@@ -36,15 +36,15 @@ import {Link} from 'react-router-dom';
     
     <a href="#"><Link to="/Portfolio/portfolio">Portfolio</Link></a>
     <a href="#"><Link to="/Blog/blog">Blog</Link></a>
-    <a onClick={()=>{myProps.scrollSection(myProps.hireMe)}}><button><Link to="/">Hire me</Link></button></a>
+    <a onClick={()=>{myProps.scrollSection(myProps.hireMe) ; animation()}}><button><Link to="/">Hire me</Link></button></a>
     
     </div> 
     <div className={animated? "dropdown-content1":"dropdown-content"}>
-  <a href="#"><Link to="/About/about">About</Link></a>
+  <a onClick={()=>animation()} ><Link to="/About/about">About</Link></a>
     <a onClick={()=>{myProps.scrollSection(myProps.services) ;myProps.setStartAnimation();animation()}}><Link to="/">Services</Link></a>
     <a onClick={()=>animation()} ><Link to="/Portfolio/portfolio">Portfolio</Link></a>
-    <a href="#"><Link to="/Blog/blog">Blog</Link></a>
-    <a onClick={()=>{myProps.scrollSection(myProps.hireMe)}}><button><Link to="/">Hire me</Link></button></a>
+    <a onClick={()=>animation()} ><Link to="/Blog/blog">Blog</Link></a>
+    <a onClick={()=>{myProps.scrollSection(myProps.hireMe) ; animation()}}><button><Link to="/">Hire me</Link></button></a>
   </div>  
 
 </div>
