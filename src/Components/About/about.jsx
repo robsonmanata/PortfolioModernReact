@@ -15,7 +15,7 @@ function About(){
         <img className="circleimg" src={Robson}></img>
         <div className="aboutme">
             <h1>About Me</h1>
-            <p>I am <u>Robson Manata</u> a Frontend and Backend developer based in Wroclaw Poland , 
+            <p>I am <u>Robson Manata</u> a <u>Front</u>end and <u>Back</u>end developer based in Poland , 
             I enjoy turning complex problems into simple , beautiful and intuitive designs . 
             When i am not coding or pushing pixels , you will find me cooking , 
             on a football pitch or working out .</p>
