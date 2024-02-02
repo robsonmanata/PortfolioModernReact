@@ -105,7 +105,7 @@
         
         & div:nth-child(1){
             background-color: #FF8C32;
-            width: 150px;
+            width: 130px;
             text-align: center;
             padding: 30px 0px 30px 0px;
             
@@ -114,14 +114,14 @@
         }
         & div:nth-child(2){
             background-color: #424657;
-            width: 150px;
+            width: 130px;
             margin:0px 5px 0px 5px;
             padding: 30px 0px 30px 0px;
             text-align: center;
         }
         & div:nth-child(3){
             background-color: #424657;
-            width: 150px;
+            width: 130px;
             padding: 30px 0px 30px 0px;
             text-align: center;
             
@@ -145,7 +145,7 @@
         
         & div:nth-child(1){
             background-color: #FF8C32;
-            width: 150px;
+            width: 130px;
             text-align: center;
             padding: 30px 0px 30px 0px;
             animation-name:floatin ;
@@ -155,14 +155,14 @@
         }
         & div:nth-child(2){
             background-color: #424657;
-            width: 150px;
+            width: 130px;
             margin:0px 5px 0px 5px;
             padding: 30px 0px 30px 0px;
             text-align: center;
         }
         & div:nth-child(3){
             background-color: #424657;
-            width: 150px;
+            width: 130px;
             padding: 30px 0px 30px 0px;
             text-align: center;
             animation-name:floatin2 ;
