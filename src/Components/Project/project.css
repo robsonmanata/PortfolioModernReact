@@ -3,7 +3,7 @@
     border-radius: 5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color:white;
-    margin: 10px;
+    margin: 3px;
 }
 .project{
     border-radius: 5px;
@@ -53,13 +53,12 @@ a{
 @media (max-width: 728px) {
     .project{
         flex:25%; 
-        max-width: 160px; 
+        max-width: 190px; 
     
     
     }
     .imgContainer{
         width: 100%;
-        max-width: 160px;
         
         border-radius: 5px;
         

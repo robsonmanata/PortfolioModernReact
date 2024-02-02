@@ -14,6 +14,7 @@ revenue, and enhances marketing efforts. The majority of associations are not
 doing as bad as they think at managing data. Still, there are always opportunities 
 for improvement."
 postImg={ Effectivedatabase}
+
 >
 </BlogPost>
 <BlogPost postText="Data is a key asset for any association. It’s 
