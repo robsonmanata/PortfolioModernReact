@@ -62,6 +62,7 @@ function App() {
    <Route path="/Blog/blog"  element={<Blog/>}/>
    <Route path="/About/about" element={<About/>}/>
    <Route path="/Messagesent/messagesent" element={<MessageSent/>}/>
+   
    </Routes>
    
    </div>

@@ -10,7 +10,7 @@ function SectionB(){
 <div className="discussiondiv">
 <div>
 <h3>-contact</h3>
-<h1>Any type of query & Discussion .</h1>
+<h2>Any type of query & Discussion .</h2>
 <p>I am more than happy to take the time and 
 talk to you or answer any questions about your 
 project idea and how it can be implemented .</p>

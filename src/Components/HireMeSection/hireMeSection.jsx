@@ -31,7 +31,7 @@ function HireMeSection(myProps){
         <div ref={myProps.hireMe} className="hireMe">
         <div className="callToAction">
             <h1>Got a project? lets talk.</h1>
-            <p>Tell me your name/company name ,<br></br> budget , goals , send images share as much<br></br> information as you can and I will help define your<br></br> next project</p>
+            
         </div>
         <div className="formdiv">
 

@@ -7,6 +7,7 @@
     border-radius: 5px;
     padding: 15px;
     margin:20px;
+
 }
 .blogpostimg{
 
@@ -14,4 +15,10 @@
         width: 100%;
         height: 100%;
     }
+}
+.blogpostanchor a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+
 }

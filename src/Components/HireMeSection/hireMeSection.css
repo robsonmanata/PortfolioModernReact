@@ -85,3 +85,37 @@ textarea {
     resize: none;
     margin-top: 10px;
   }
+
+  @media (max-width: 767px){
+    .callToAction{
+    
+      flex: 30%;
+      margin-left: 3%;
+      
+  }
+  .formdiv{
+    flex: 70%;
+    
+}
+
+  .hireMe p{
+
+    font-size: 16px;
+  }
+  textarea {
+  
+    width: 95%;
+    height: 150px;
+  }
+  
+  input[type="file"]{
+    width: 65%;
+  }
+  input[type="text"], input[type="email"],select{
+    width: 95%;
+  }
+  input[type="submit"]{
+    width: 30%;
+  }
+
+  }
