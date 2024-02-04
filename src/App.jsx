@@ -49,7 +49,7 @@ function App() {
    <Route path="/"  element={
     <div>
    <SectionA></SectionA>
-   <SectionB></SectionB>
+   <SectionB hireMe={hireme} scrollSection={scrollSection}></SectionB>
    <ServiceSection services={services} startAnimation={startAnimation}></ServiceSection>
    <SectionC></SectionC>
    <BlogSection></BlogSection>

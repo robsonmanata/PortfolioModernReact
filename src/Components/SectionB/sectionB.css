@@ -6,7 +6,7 @@
 }
 b{
     color:#FF8C32 ;
-    font-size:1.9em;
+    font-size:1.7em;
     font-family: 'Nunito', sans-serif;
 }
 .discussiondiv{
@@ -21,6 +21,11 @@ justify-content:center;
         }
 
 }
+.discussiondiv h3{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
 .experience{
     flex:50%;
     display:flex;
@@ -45,10 +50,10 @@ justify-content:center;
         font-size: 18px;
     }
     .sectionB h6{
-        font-size:16px ;
+        font-size:14px ;
     }
     .sectionB p{
-        font-size:16px ;
+        font-size:14px ;
     }
     .discussiondiv{
         flex:50%;

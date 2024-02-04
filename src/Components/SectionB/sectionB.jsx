@@ -1,6 +1,6 @@
 import "./sectionB.css"
 
-function SectionB(){
+function SectionB(myProps){
     let currentDate = new Date()
     let year = currentDate.getFullYear()
     let initialYear = 2019;
@@ -9,18 +9,19 @@ function SectionB(){
         <div className="sectionB">
 <div className="discussiondiv">
 <div>
-<h3>-contact</h3>
+
+<a onClick={()=>{myProps.scrollSection(myProps.hireMe) }}><h3>contact</h3></a>
 <h2>Any type of query & Discussion .</h2>
 <p>I am more than happy to take the time and 
 talk to you or answer any questions about your 
 project idea and how it can be implemented .</p>
-<a>send a message ✉</a>
+<a  onClick={()=>{myProps.scrollSection(myProps.hireMe) }}><h3>send a message ✉</h3></a>
 </div>
 </div>
 
 <div className="experience">
 <div>
-<h2>You can not use up creativity the more you use , the
+<h2>You can't use up creativity the more you use , the
  more you have at your disposal .</h2>
         <h5>-Maya Angelou-</h5>
         <p>I have been building websites and web applications for 
