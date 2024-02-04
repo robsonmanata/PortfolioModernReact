@@ -140,11 +140,12 @@ animation-delay: 3s;
          padding: 0.1px;
       
         & span:nth-child(1){
-          width: 30px;
+          width: 25px;
           animation-name: example1;
           animation-duration: 300ms;
           animation-delay: 0s;
           animation-fill-mode: forwards;
+          border-radius: 3px;
       
             
             transition: transform 100ms ease;  
@@ -155,13 +156,15 @@ animation-delay: 3s;
           animation-duration: 140ms;
           animation-delay: 0s;
           animation-fill-mode: forwards;
+          border-radius: 3px;
         }
         & span:nth-child(3){
-          width: 30px;
+          width: 25px;
           animation-name: example;
           animation-duration: 300ms;
           animation-delay: 0s;
           animation-fill-mode: forwards;
+          border-radius: 3px;
            
         };
               
@@ -169,13 +172,13 @@ animation-delay: 3s;
         @keyframes example {
           0%   {transform: translate(0px,8px)}
           50%  {transform: translate(0px,-8px);}
-          100%  {transform: matrix(1,-1,1,1,1,-9);}
+          100%  {transform: matrix(1,-1,1,1,1,-5);}
          
         }
         @keyframes example1 {
           0%   {transform: translate(0px,-8px)}
           50%  {transform: translate(0px,8px);}
-          100%  {transform: matrix(1,1,1,-1,0,9);}
+          100%  {transform: matrix(1,1,1,-1,0,15);}
          
         }
         @keyframes example2 {
