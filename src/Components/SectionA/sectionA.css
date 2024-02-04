@@ -39,7 +39,7 @@
     }
     .left-item1 p{
       font-family: 'Nunito', sans-serif;
-  font-size: 18px;
+      font-size: 18px;
     }
     .highlight{
       color: black;
@@ -121,7 +121,7 @@ animation-name: example13;
         flex: 20%;
       }
       .left-item1 p{
-        font-size:18px;
+        font-size:16px;
         
       }
 

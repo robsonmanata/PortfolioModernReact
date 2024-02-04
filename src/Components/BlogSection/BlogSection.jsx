@@ -16,9 +16,8 @@ function BlogSection() {
           <div className="BlogRight">
           <div>
           <p>Feb 26 Blog</p>
-          <h5>A couple of tips for designing websites which are disability friendly .
+          <h5><Link className="bloglinks" Link to="/Blog/blog">A couple of tips for designing websites which are disability friendly .</Link>
           <a><FontAwesomeIcon className="highlight" size="1x" icon={faArrowRight} transform="grow-6">
-            export default BlogSection
           </FontAwesomeIcon></a> 
           </h5>
           
@@ -26,9 +25,8 @@ function BlogSection() {
           </div>
           <div>
           <p>Feb 26 Blog</p>
-          <h5>A couple of tips for designing websites which are disability friendly .
+          <h5><Link className="bloglinks" Link to="/Blog/blog">A couple of tips for designing websites which are disability friendly .</Link>
           <a><FontAwesomeIcon className="highlight" size="1x" icon={faArrowRight} transform="grow-6">
-            export default BlogSection
           </FontAwesomeIcon></a> 
           </h5>
           
@@ -36,9 +34,8 @@ function BlogSection() {
           </div>
           <div>
           <p>Feb 26 Blog</p>
-          <h5>A couple of tips for designing websites which are disability friendly .
+          <h5><Link className="bloglinks" Link to="/Blog/blog">A couple of tips for designing websites which are disability friendly .</Link>
           <a><FontAwesomeIcon className="highlight" size="1x" icon={faArrowRight} transform="grow-6">
-            export default BlogSection
           </FontAwesomeIcon></a> 
           </h5>
           
