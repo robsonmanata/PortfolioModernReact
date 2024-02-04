@@ -127,6 +127,7 @@ animation-delay: 3s;
       }
          .navigation a{
           display: none;
+          
         }
         .dropdown{
           width: 100px;
@@ -212,16 +213,19 @@ animation-delay: 3s;
         .dropdown-content1{
             display: block;
             position: absolute;
-            background-color:white;
+            background-color:#333646;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
             width: 97%;
+            opacity:0.9;
             
             
           } 
           .dropdown-content1 a{
             display: block;
-            padding:10px
+            padding:10px;
+            color:white;
+            text-decoration:none;
           }
         
       }
