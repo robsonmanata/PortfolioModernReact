@@ -6,7 +6,7 @@
 }
 b{
     color:#FF8C32 ;
-    font-size:1.5em;
+    font-size:1.9em;
     font-family: 'Nunito', sans-serif;
 }
 .discussiondiv{
@@ -33,9 +33,10 @@ justify-content:center;
 
    
 }
-h6{
+.sectionB h6{
     margin-top:0px;
     font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem;
     
 }
 @media(max-width:768px) {
@@ -43,7 +44,12 @@ h6{
         font-family: 'Nunito', sans-serif;
         font-size: 18px;
     }
-    
+    .sectionB h6{
+        font-size:16px ;
+    }
+    .sectionB p{
+        font-size:16px ;
+    }
     .discussiondiv{
         flex:50%;
         display: flex;
