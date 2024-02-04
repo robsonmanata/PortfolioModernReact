@@ -12,10 +12,11 @@ import Portfolio from './Components/Portfolio/portfolio';
 import Blog from './Components/Blog/blog';
 import About from './Components/About/about';
 import MessageSent from './Components/MessageSent/messageSent';
-import { Route,Routes } from 'react-router-dom';
+import { Route,Routes,useLocation } from 'react-router-dom';
 
 import {useRef} from "react";
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
+
 
 
 function App() {
@@ -29,14 +30,24 @@ function App() {
   const services = useRef(null);
   const hireme = useRef(null);
   const scrollSection =(elementRef)=>{
-   window.scrollTo({
-    top:elementRef.current.offsetTop,
-    behavior: "smooth",
-    
-   }
-   )
+    elementRef.current.scrollIntoView({ behavior: 'smooth' });
+   
 
   }
+
+  const location = useLocation();
+
+  useEffect(() => {
+    const elementId = location.hash.substring(1); // Remove the leading '#' from the URL hash
+    scrollToElement(elementId);
+  }, [location]);
+
+  const scrollToElement = (elementId) => {
+    const element = document.getElementById(elementId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
   
   
   return(
@@ -50,7 +61,7 @@ function App() {
     <div>
    <SectionA></SectionA>
    <SectionB hireMe={hireme} scrollSection={scrollSection}></SectionB>
-   <ServiceSection services={services} startAnimation={startAnimation}></ServiceSection>
+   <ServiceSection  services={services} startAnimation={startAnimation}></ServiceSection>
    <SectionC></SectionC>
    <BlogSection></BlogSection>
    <HireMeSection hireMe={hireme}></HireMeSection>

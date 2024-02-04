@@ -28,7 +28,7 @@ function HireMeSection(myProps){
 
 
     return(
-        <div ref={myProps.hireMe} className="hireMe">
+        <div id="hireMeid" ref={myProps.hireMe} className="hireMe">
         <div className="callToAction">
             <h1>Got a project? lets talk.</h1>
             
