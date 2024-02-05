@@ -72,7 +72,7 @@ function App() {
    <Route path="/Portfolio/portfolio"  element={<Portfolio/>}/>
    <Route path="/Blog/blog"  element={<Blog/>}/>
    <Route path="/About/about" element={<About/>}/>
-   <Route path="/Messagesent/messagesent" element={<MessageSent/>}/>
+   <Route path="/MessageSent/messagesent" element={<MessageSent/>}/>
    
    </Routes>
    
