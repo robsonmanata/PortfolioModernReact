@@ -51,16 +51,16 @@ function HireMeSection(myProps){
             <h1>Tell me about your vision for<br></br> the project and lets make<br></br> that vision a reality .</h1>
            <form ref={form} onSubmit={handleSubmit}>
             <input type="text" name="Name" placeholder="Name" onChange={handleChange}></input>
-            <input type="email" name="Email" placeholder="Email" onChange={handleChange}></input>
+            <input type="email" name="Email" placeholder="Email*" onChange={handleChange} required></input>
+            <input type="tel" name="phonenumber" placeholder="+phone" onChange={handleChange}></input>
             <select id="service" name="Services" onChange={handleChange}>
             <option value="Services">Services</option>
         <option value="website design">website design</option>
         <option value="web application">web application</option>
-        <option value="graphic projects">graphic projects</option>
+        <option value="graphic projects">graphic design projects</option>
         <option value="database Optimisation">database Optimisation</option>
       </select>
-            <textarea name="message"placeholder="" onChange={handleChange}></textarea>
-            <input type="file" name="file" placeholder="upload" onChange={handleChange}></input>
+            <textarea name="message"placeholder="" onChange={handleChange} required></textarea>
             <input type="submit" name="Submit"></input>
             
            </form>
