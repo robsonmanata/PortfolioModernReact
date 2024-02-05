@@ -15,10 +15,16 @@
     
     }
 }
+.explore{
+    margin:15px;
+    display: block;
+
+}
 
 h6{
     display: inline-block;
     font-size: 18px;
+    text-decoration: underline;
     
 }
 .spanname{
