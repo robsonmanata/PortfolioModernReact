@@ -23,7 +23,7 @@ const navigate = useNavigate();
   
     const handleSubmit = (event) => {
       event.preventDefault();
-      emailjs.sendForm("service_9r31use", "template_orb36ga", form.current,"RoGSsygyEbD893MjK").then(
+      emailjs.sendForm("service_9r31use", "template_orb36g", form.current,"RoGSsygyEbD893MjK").then(
         (result) => {
           console.log("Message Sent Successfully");
           console.log(result.text);
@@ -34,7 +34,7 @@ const navigate = useNavigate();
         },
         (error) => {
           console.log(error.text);
-          setTimeout(function () { window.location.href =  
+          setTimeout(function () {   
             navigate('/MessageSent/messageNotSent');}
          ,2000 )
         }
