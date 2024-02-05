@@ -1,14 +1,14 @@
 import"./hireMeSection.css";
 import { useState,useRef } from "react";
 import emailjs, { init } from "@emailjs/browser";
-
+import {  useNavigate  } from "react-router-dom";
 
 
 
 
 
 function HireMeSection(myProps){
-
+const navigate = useNavigate();
   init("RoGSsygyEbD893MjK");
   const form = useRef();
     const [inputs, setInputs] = useState({});
@@ -27,8 +27,9 @@ function HireMeSection(myProps){
         (result) => {
           console.log("Message Sent Successfully");
           console.log(result.text);
-          setTimeout(function () { window.location.href =  
-            "/MessageSent/messageSent";}
+          setTimeout(function () {  
+            navigate('/MessageSent/messageSent');
+          }
          ,2000 )
         },
         (error) => {
