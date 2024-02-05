@@ -25,17 +25,21 @@ function HireMeSection(myProps){
       event.preventDefault();
       emailjs.sendForm("service_9r31use", "template_orb36ga", form.current,"RoGSsygyEbD893MjK").then(
         (result) => {
-          alert("Message Sent Successfully");
-          alert(result.text);
+          console.log("Message Sent Successfully");
+          console.log(result.text);
+          setTimeout(function () { window.location.href =  
+            "/MessageSent/messageSent";}
+         ,2000 )
         },
         (error) => {
           alert(error.text);
+          setTimeout(function () { window.location.href =  
+            "/MessageSent/messageSent";}
+         ,2000 )
         }
       );
       console.log(inputs);
-      setTimeout(function () { window.location.href =  
-        "/Messagesent/messagesent";}
-     ,3000 )
+      
     }
 
 
