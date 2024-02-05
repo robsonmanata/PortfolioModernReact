@@ -1,5 +1,5 @@
 import "./messageSent.css"
-import sentMessage from "/images/presto-1-removebg-preview.png"
+import sentMessage from "/images/paperplane.png"
 
 
 

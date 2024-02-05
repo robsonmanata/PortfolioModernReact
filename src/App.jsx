@@ -12,6 +12,7 @@ import Portfolio from './Components/Portfolio/portfolio';
 import Blog from './Components/Blog/blog';
 import About from './Components/About/about';
 import MessageSent from './Components/MessageSent/messageSent';
+import MessageNotSent from './Components/MessageSent/messageNotSent';
 import { Route,Routes,useLocation } from 'react-router-dom';
 
 import {useRef} from "react";
@@ -73,6 +74,7 @@ function App() {
    <Route path="/Blog/blog"  element={<Blog/>}/>
    <Route path="/About/about" element={<About/>}/>
    <Route path="/MessageSent/messageSent" element={<MessageSent/>}/>
+   <Route path="/MessageSent/messageNotSent" element={<MessageNotSent/>}/>
    
    </Routes>
    

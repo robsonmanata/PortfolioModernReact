@@ -30,12 +30,12 @@ const navigate = useNavigate();
           setTimeout(function () {  
             navigate('/MessageSent/messageSent');
           }
-         ,2000 )
+         ,1000 )
         },
         (error) => {
-          alert(error.text);
+          console.log(error.text);
           setTimeout(function () { window.location.href =  
-            "/MessageSent/messageSent";}
+            navigate('/MessageSent/messageNotSent');}
          ,2000 )
         }
       );
