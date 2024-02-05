@@ -1,5 +1,6 @@
 import"./hireMeSection.css";
-import { useState } from "react";
+import { useState,useRef } from "react";
+import emailjs, { init } from "@emailjs/browser";
 
 
 
@@ -8,10 +9,13 @@ import { useState } from "react";
 
 function HireMeSection(myProps){
 
+  init("RoGSsygyEbD893MjK");
+  const form = useRef();
     const [inputs, setInputs] = useState({});
     
 
     const handleChange = (event) => {
+      
       const name = event.target.name;
       const value = event.target.value;
       setInputs(values => ({...values, [name]: value}))
@@ -19,6 +23,15 @@ function HireMeSection(myProps){
   
     const handleSubmit = (event) => {
       event.preventDefault();
+      emailjs.sendForm("service_9r31use", "template_orb36ga", form.current,"RoGSsygyEbD893MjK").then(
+        (result) => {
+          alert("Message Sent Successfully");
+          alert(result.text);
+        },
+        (error) => {
+          alert(error.text);
+        }
+      );
       console.log(inputs);
       setTimeout(function () { window.location.href =  
         "http://localhost:5173/Messagesent/messagesent";}
@@ -36,7 +49,7 @@ function HireMeSection(myProps){
         <div className="formdiv">
 
             <h1>Tell me about your vision for<br></br> the project and lets make<br></br> that vision a reality .</h1>
-           <form  onSubmit={handleSubmit}>
+           <form ref={form} onSubmit={handleSubmit}>
             <input type="text" name="Name" placeholder="Name" onChange={handleChange}></input>
             <input type="email" name="Email" placeholder="Email" onChange={handleChange}></input>
             <select id="service" name="Services" onChange={handleChange}>
