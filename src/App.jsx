@@ -13,6 +13,7 @@ import Blog from './Components/Blog/blog';
 import About from './Components/About/about';
 import MessageSent from './Components/MessageSent/messageSent';
 import MessageNotSent from './Components/MessageSent/messageNotSent';
+import ScrollToTopButton from './Components/ScrollToTop/scrollToTop';
 import { Route,Routes,useLocation } from 'react-router-dom';
 
 import {useRef} from "react";
@@ -79,7 +80,7 @@ function App() {
    </Routes>
    
    </div>
-   
+   <ScrollToTopButton></ScrollToTopButton>
    <Footer></Footer>
 </div>
 

@@ -1,0 +1,44 @@
+.scrollb{
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+  bottom: 50px;
+  right: 10px;
+  border-radius: 50%;
+  animation-name: bounce;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+
+@keyframes bounce {
+    0% { transform: translate(0px ,2px) ; }
+    100% { transform: translate(0px ,-2px); }
+    
+  }
+
+  @media(max-width: 768px) {
+    scrollb{
+        background-color: orange;
+        width: 50px;
+        height: 50px;
+        position: fixed;
+      bottom: 0px;
+      right: 0px;
+      border-radius: 50%;
+      animation-name: bounce;
+      animation-duration: 0.3s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      
+    }
+    
+    @keyframes bounce {
+        0% { transform: translate(0px ,2px) ; }
+        100% { transform: translate(0px ,-2px); }
+        
+      }
+    
+  }
