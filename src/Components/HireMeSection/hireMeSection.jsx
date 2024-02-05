@@ -39,7 +39,7 @@ function HireMeSection(myProps){
         }
       );
       console.log(inputs);
-      
+     
     }
 
 
