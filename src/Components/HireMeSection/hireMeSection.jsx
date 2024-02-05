@@ -34,7 +34,7 @@ function HireMeSection(myProps){
       );
       console.log(inputs);
       setTimeout(function () { window.location.href =  
-        "http://localhost:5173/Messagesent/messagesent";}
+        "/Messagesent/messagesent";}
      ,3000 )
     }
 
