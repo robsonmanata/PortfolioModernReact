@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/Messagesent/messageSent"
+status = 200
