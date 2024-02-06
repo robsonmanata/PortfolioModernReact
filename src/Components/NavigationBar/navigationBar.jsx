@@ -18,10 +18,10 @@ import {Link} from 'react-router-dom';
       <div> 
 <div className="navigation">
 <div className="imga">
-<a onClick={()=>animation()} ><Link to="/">
+<Link onClick={()=> animated? animation():null} to="/">
 <img  src={logo} alt="logo"></img>
 </Link>
-</a>
+
 </div>
 
 <div className={"dropdown"}>
@@ -32,20 +32,20 @@ import {Link} from 'react-router-dom';
 </div>  
 </div>
 
-    <a href="#"><Link to="/About/about">About</Link></a>
-    <a onClick={()=>{myProps.scrollSection(myProps.services);myProps.setStartAnimation(); animation()}} > <Link to={`/#servicesid`}>Services</Link></a>
+    <Link to="/About/about">About</Link>
+     <Link onClick={()=>{myProps.scrollSection(myProps.services);myProps.setStartAnimation(); animation()}}  to={`/#servicesid`}>Services</Link>
     
-    <a href="#"><Link to="/Portfolio/portfolio">Portfolio</Link></a>
-    <a onClick={()=>animation()}><Link to="/Blog/blog">Blog</Link></a>
-    <a onClick={()=>{myProps.scrollSection(myProps.hireMe) ; animation()}}><button><Link to={`/#hireMeid`}>Hire me</Link></button></a>
+    <Link to="/Portfolio/portfolio">Portfolio</Link>
+    <Link onClick={()=>animation()} to="/Blog/blog">Blog</Link>
+    <button onClick={()=>{myProps.scrollSection(myProps.hireMe) ; animation()}}><Link to={`/#hireMeid`}>Hire Me</Link></button>
     
     </div> 
     <div className={animated? "dropdown-content1":"dropdown-content"}>
-  <a onClick={()=>animation()} ><Link to="/About/about">About</Link></a>
-    <a onClick={()=>{myProps.scrollSection(myProps.services) ;myProps.setStartAnimation();animation()}}><Link to={`/#servicesid`}>Services</Link></a>
-    <a onClick={()=>animation()} ><Link to="/Portfolio/portfolio">Portfolio</Link></a>
-    <a onClick={()=>animation()} ><Link to="/Blog/blog">Blog</Link></a>
-    <a onClick={()=>{myProps.scrollSection(myProps.hireMe) ; animation()}}><button><Link to="/#hireMeid">Hire me</Link></button></a>
+    <Link onClick={()=>animation()} to="/About/about">About</Link>
+    <Link onClick={()=>{myProps.scrollSection(myProps.services) ;myProps.setStartAnimation();animation()}} to={`/#servicesid`}>Services</Link>
+    <Link onClick={()=>animation()} to="/Portfolio/portfolio">Portfolio</Link>
+    <Link onClick={()=>animation()} to="/Blog/blog">Blog</Link>
+    <button onClick={()=>{myProps.scrollSection(myProps.hireMe) ; animation()}}><Link to="/#hireMeid">Hire Me</Link></button>
   </div>  
 
 </div>

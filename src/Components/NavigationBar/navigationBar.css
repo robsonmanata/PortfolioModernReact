@@ -17,10 +17,9 @@
     }
     .navigation a{
       font-family: 'Saira Condensed', sans-serif;
-      font-weight:900px;
-      font-size: 1em;
-      margin-right: 5px;
-      margin-left: 5px;
+      font-size: 1.2em;
+      margin-right: 10px;
+      margin-left: 10px;
       color:#333646;
       text-decoration: none;
       
@@ -29,10 +28,8 @@
     
     
     img{
-    
     height:40px;
     width:40px;
-   
     }
     .dropbtn {
       border: none;  
@@ -62,11 +59,13 @@
       color: white;
       font-size: 1rem;
       border: 0px;
-      font-weight: 900px;
       border-radius: 3px;
+      margin-left: 10px;
       animation-name: shake;
+      height: 40px;
+      padding: 0px;
 animation-duration: 1s;
-animation-delay: 3s;
+animation-delay: 2s;
     }
     
   @keyframes shake {
@@ -93,7 +92,7 @@ animation-delay: 3s;
         transition: transform 1s;     
     }
     
-/* stop here */
+
     .humburger ,.humburger1{
       display:none; 
     }
@@ -121,9 +120,9 @@ animation-delay: 3s;
       }
       .dropdown-content1 button{
         display:block;
-        padding: 10px;
-        margin-bottom:10px;
-        margin-left:10px;
+        padding: 0px;
+        margin: 5px 0px 10px 3px;
+        
       }
          .navigation a{
           display: none;
@@ -224,12 +223,27 @@ animation-delay: 3s;
             
             
           } 
-          .dropdown-content1 a{
+          .dropdown-content1 {
+            & a:nth-child(1), a:nth-child(2), a:nth-child(3){
             display: block;
             padding:10px;
             color:white;
             text-decoration:none;
+            }
+            & a:nth-child(4){
+              display: block;
+              padding:10px 0px 0px 10px;
+              color:white;
+              text-decoration:none;
+            }
+            & a:nth-child(5){
+              display: block;
+              padding:0px;
+              color:white;
+              text-decoration:none;
+            }
           }
+         
         
       }
   
