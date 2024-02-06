@@ -55,7 +55,7 @@
     }
     button{
       font-family: 'Saira Condensed', sans-serif;
-      background: #ffaf29;
+      background: #333646;
       color: white;
       font-size: 1rem;
       border: 0px;
@@ -66,6 +66,16 @@
       padding: 0px;
 animation-duration: 1s;
 animation-delay: 2s;
+    }
+    button {
+      & a:nth-child(1){
+      color: white;
+      }
+    }
+    button:hover {
+      & a:nth-child(1){
+      color:#ffaf29;
+      }
     }
     
   @keyframes shake {
@@ -122,6 +132,7 @@ animation-delay: 2s;
         display:block;
         padding: 0px;
         margin: 5px 0px 10px 3px;
+        background-color: #ffaf29;
         
       }
          .navigation a{
@@ -223,25 +234,14 @@ animation-delay: 2s;
             
             
           } 
-          .dropdown-content1 {
-            & a:nth-child(1), a:nth-child(2), a:nth-child(3){
+          .dropdown-content1 a{
+            
             display: block;
             padding:10px;
             color:white;
             text-decoration:none;
-            }
-            & a:nth-child(4){
-              display: block;
-              padding:10px 0px 0px 10px;
-              color:white;
-              text-decoration:none;
-            }
-            & a:nth-child(5){
-              display: block;
-              padding:0px;
-              color:white;
-              text-decoration:none;
-            }
+            
+           
           }
          
         
