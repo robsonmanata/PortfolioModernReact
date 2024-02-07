@@ -14,7 +14,7 @@ function BlogSection() {
           <div className="BlogRight">
           <div>
           <p>Feb 26 Blog</p>
-          <Link className="bloglinks"  to="/Blog/blog"><h5>A couple of tips for designing websites which are disability friendly .</h5>
+          <Link className="bloglinks"  to="/Blog/blog"><h5>A couple of tips for designing websites which are disability friendly</h5>
           </Link>
           <span></span>
           </div>

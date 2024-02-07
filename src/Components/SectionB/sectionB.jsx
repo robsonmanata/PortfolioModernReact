@@ -28,7 +28,7 @@ project idea and how it can be implemented .</p>
         quite a while working mostly as a freelancer and on personal 
         projects check out my portfolio to have a feel of what I am 
         capable of .</p>
-        <h6><b>{experience}</b> Years of experience <b>100%</b> project success</h6>
+        <h6><b>{experience}</b> years of experience <b>100%</b> project success</h6>
        
         </div>
     
