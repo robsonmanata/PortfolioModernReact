@@ -8,9 +8,9 @@ import ServiceSection from './Components/ServicesSection/servicesSection';
 import BlogSection from './Components/BlogSection/BlogSection';
 import HireMeSection from './Components/HireMeSection/hireMeSection';
 import Footer from './Components/Footer/footer';
-import Portfolio from './Components/Portfolio/portfolio';
+import Portfolio from './Components/Websitedesign/portfolio';
 import Blog from './Components/Blog/blog';
-import About from './Components/About/about';
+import About from './Components/Webdeveloper/about';
 import MessageSent from './Components/MessageSent/messageSent';
 import MessageNotSent from './Components/MessageSent/messageNotSent';
 import ScrollToTopButton from './Components/ScrollToTop/scrollToTop';
@@ -71,9 +71,9 @@ function App() {
    </div>
 
    }/>
-   <Route path="/Portfolio/portfolio"  element={<Portfolio/>}/>
+   <Route path="/Websitedesign/portfolio"  element={<Portfolio/>}/>
    <Route path="/Blog/blog"  element={<Blog/>}/>
-   <Route path="/About/about" element={<About/>}/>
+   <Route path="/Webdeveloper/about" element={<About/>}/>
    <Route path="/MessageSent/messageSent" element={<MessageSent/>}/>
    <Route path="/MessageSent/messageNotSent" element={<MessageNotSent/>}/>
    

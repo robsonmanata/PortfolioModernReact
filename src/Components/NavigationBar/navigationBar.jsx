@@ -32,18 +32,18 @@ import {Link} from 'react-router-dom';
 </div>  
 </div>
 
-    <Link to="/About/about">About</Link>
+    <Link to="/Webdeveloper/about">About</Link>
      <Link onClick={()=>{myProps.scrollSection(myProps.services);myProps.setStartAnimation(); animation()}}  to={`/#servicesid`}>Services</Link>
     
-    <Link to="/Portfolio/portfolio">Portfolio</Link>
+    <Link to="/Websitedesign/portfolio">Portfolio</Link>
     <Link onClick={()=>animation()} to="/Blog/blog">Blog</Link>
     <button onClick={()=>{myProps.scrollSection(myProps.hireMe) ; animation()}}><Link to={`/#hireMeid`}>Hire Me</Link></button>
     
     </div> 
     <div className={animated? "dropdown-content1":"dropdown-content"}>
-    <Link onClick={()=>animation()} to="/About/about">About</Link>
+    <Link onClick={()=>animation()} to="/Webdeveloper/about">About</Link>
     <Link onClick={()=>{myProps.scrollSection(myProps.services) ;myProps.setStartAnimation();animation()}} to={`/#servicesid`}>Services</Link>
-    <Link onClick={()=>animation()} to="/Portfolio/portfolio">Portfolio</Link>
+    <Link onClick={()=>animation()} to="/Websitedesign/portfolio">Portfolio</Link>
     <Link onClick={()=>animation()} to="/Blog/blog">Blog</Link>
     <button onClick={()=>{myProps.scrollSection(myProps.hireMe) ; animation()}}><Link to="/#hireMeid">Hire Me</Link></button>
   </div>  

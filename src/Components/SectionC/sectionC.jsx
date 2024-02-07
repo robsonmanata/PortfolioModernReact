@@ -13,7 +13,7 @@ function SectionC() {
         <div className="sectionC">
         <div>
 <span className="spanname"></span>
-<Link to="/Portfolio/portfolio"><h6>SOME OF MY LATEST WORK</h6></Link>
+<Link to="/websitedesign/portfolio"><h6>SOME OF MY LATEST WORK</h6></Link>
 
 <span className="spanname"></span>
 </div>
@@ -32,7 +32,7 @@ Website" siteimage={jumpingCastle} sitelink="https://jade-tanuki-07db8e.netlify.
 
 
         </div>
-        <Link  className="explore"to="/Portfolio/portfolio">Explore more</Link>
+        <Link  className="explore"to="/Websitedesign/portfolio">Explore more</Link>
         </div>
     )
 }
