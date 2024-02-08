@@ -27,16 +27,13 @@ const navigate = useNavigate();
         (result) => {
           console.log("Message Sent Successfully");
           console.log(result.text);
-          setTimeout(function () {  
             navigate('/MessageSent/messageSent');
-          }
-         ,1000 )
+        
         },
         (error) => {
           console.log(error.text);
-          setTimeout(function () { 
-            navigate('/MessageSent/messageNotSent');}
-         ,2000 )
+            navigate('/MessageSent/messageNotSent');
+         
         }
       );
       console.log(inputs);

@@ -7,9 +7,8 @@ import Dogfinder from "/images/dogTinder.png";
 import Keeper from "/images/keeperapp.png";
 import Todolist from "/images/todolist.png";
 import Newsletter from "/images/signup.png";
-
-
-
+import Suggestion from "/images/suggestions.png";
+import todo from "/images/todo.png";
 
 
 function Portfolio(){
@@ -44,7 +43,7 @@ function Portfolio(){
 
            <Project title="To-DO application Interactive UI design " 
            siteimage={Todolist} 
-           sitelink="https://pure-lake-95197.herokuapp.com/">
+           sitelink=" https://robsonmanata.github.io/to-do-list/">
            </Project>
 
            <Project title="News letter page mailchimp" 
@@ -52,7 +51,16 @@ function Portfolio(){
            sitelink="https://fathomless-forest-11609.herokuapp.com">
            </Project>
 
-          
+           <Project title="Suggestion box app" 
+           siteimage={Suggestion} 
+           sitelink="https://dry-waters-01162.herokuapp.com">
+           </Project>
+
+           <Project title="todo app mongoDB" 
+           siteimage={todo} 
+           sitelink="https://pure-lake-95197.herokuapp.com/">
+           </Project>
+           
 
         </div>
     )
