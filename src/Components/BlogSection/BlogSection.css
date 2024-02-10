@@ -36,6 +36,7 @@
 .BlogRight{
    
     flex: 90%;
+    margin-left: 2%;
 }
 .Bloglink{
     
@@ -63,6 +64,7 @@ color: black;
    
         flex: 90%;
         padding-right: 3%;
+        margin-left: 2%;
     }
 
     

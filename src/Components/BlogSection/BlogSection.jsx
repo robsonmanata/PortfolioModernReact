@@ -20,14 +20,14 @@ function BlogSection() {
           </div>
           <div>
           
-          <p>Feb 26 Blog</p>
+          <p>April 16 Blog</p>
           <Link className="bloglinks"  to="/Blog/blog"><h5>Effective database management .</h5>
           </Link>
           <span></span>
           </div>
 
           <div>
-          <p>Feb 26 Blog</p>
+          <p>October 24 Blog</p>
           <Link className="bloglinks" to="/Blog/blog"><h5>Responsive website design.</h5>
           </Link>
           <span></span>
