@@ -8,7 +8,7 @@ function Project(myProp){
         <a href={myProp.sitelink}>
         <div className="project">
         <div className="imgContainer">
-        <img src={myProp.siteimage}></img>
+        <img src={myProp.siteimage} loading="lazy"></img>
         </div>
         <p>{myProp.title}</p>
         </div>

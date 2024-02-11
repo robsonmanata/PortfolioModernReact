@@ -22,7 +22,7 @@ function SectionA(){
         </div>
     </div>
      <div className="right-item">
-    <img src={mainpageimg}></img>
+    <img src={mainpageimg} loading="lazy"></img>
      </div>
      <div className="left-item1">
      <div>

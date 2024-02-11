@@ -9,7 +9,7 @@ function BlogPost(myProps){
         <a href={myProps.link}>
         <div className="blogpostdiv">
             <div className="blogpostimg">
-                <img src={myProps.postImg}></img>
+                <img src={myProps.postImg} loading="lazy"></img>
             </div>
             <p>{myProps.postText}</p>
         </div>
