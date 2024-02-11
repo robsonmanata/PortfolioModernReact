@@ -3,11 +3,20 @@ import BlogPost from "../BlogComponent/blogComponent"
 import  Effectivedatabase from "/images/Effective-Database-Management-Cover-01.png"
 import Responsivedesign from "/images/responsive-design-ss-1-800x450.jpg"
 import Accesible from "/images/Slide27articlesaccessible-design-for-users-with-disabilities.png"
+import Nodejslog from "/images/Rest.webp"
 
 function Blog(){
     return(
 
         <div className="blog">
+<BlogPost postText="In this article, we’ll explore how to create a powerful RESTful API using Node.js, Express, 
+and MongoDB. By the end of this article, you’ll be able to set up a server, define routes, handle requests and 
+responses, and work with databases. Let’s dive in!"
+postImg={ Nodejslog}
+link={ "https://medium.com/@robsonmanata/building-a-restful-api-with-node-js-express-and-mongodb-daa2ba223dda"}
+
+></BlogPost>
+
 <BlogPost postText="Data is a key asset for any association. It’s 
 what drives member engagement, increases member retention, creates additional 
 revenue, and enhances marketing efforts. The majority of associations are not 
