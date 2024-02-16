@@ -1,4 +1,4 @@
-import "./blog.css"
+import "./blog.scss"
 import BlogPost from "../BlogComponent/blogComponent"
 import  Effectivedatabase from "/images/Effective-Database-Management-Cover-01.png"
 import Responsivedesign from "/images/responsive-design-ss-1-800x450.jpg"
@@ -10,12 +10,21 @@ function Blog(){
 
         <div className="blog">
 <BlogPost postText="In this article, we’ll explore how to create a powerful RESTful API using Node.js, Express, 
-and MongoDB. By the end of this article, you’ll be able to set up a server, define routes, handle requests and 
-responses, and work with databases. Let’s dive in!"
+and MongoDB. By the end of this article, you’ll be able to set up a server"
 postImg={ Nodejslog}
 link={ "https://medium.com/@robsonmanata/building-a-restful-api-with-node-js-express-and-mongodb-daa2ba223dda"}
 
 ></BlogPost>
+
+<BlogPost postText="It's no secret that more and more people are accessing the internet using their mobile
+ devices in addition to or in place of desktop computers. In fact, there are almost 7 billion mobile users 
+ worldwide. (For reference, the world population is currently 7.8 billion. That’s a lot of mobile activity.)
+
+But what they're doing on those mobile devices is even more compelling for marketers like us."
+postImg={ Responsivedesign}
+link={"https://blog.hubspot.com/marketing/responsive-web-design"}
+>
+</BlogPost>
 
 <BlogPost postText="Data is a key asset for any association. It’s 
 what drives member engagement, increases member retention, creates additional 
@@ -27,15 +36,7 @@ link={ "https://www.multiview.com/association/blog/10-simple-rules-for-effective
 
 >
 </BlogPost>
-<BlogPost postText="It's no secret that more and more people are accessing the internet using their mobile
- devices in addition to or in place of desktop computers. In fact, there are almost 7 billion mobile users 
- worldwide. (For reference, the world population is currently 7.8 billion. That’s a lot of mobile activity.)
 
-But what they're doing on those mobile devices is even more compelling for marketers like us."
-postImg={ Responsivedesign}
-link={"https://blog.hubspot.com/marketing/responsive-web-design"}
->
-</BlogPost>
 <BlogPost postText="Over 15% of the world’s population of which more than 1 billion 
 people have disability, shown in a report by WHO (world health organization) and this 
 number will increase to double by the year 2050.
