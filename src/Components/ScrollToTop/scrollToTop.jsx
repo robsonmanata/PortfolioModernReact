@@ -1,6 +1,6 @@
 import "./scrollToTop.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
+import { faAnglesUp } from '@fortawesome/free-solid-svg-icons'
 
 function ScrollToTopButton() {
   const handleClick = () => {
@@ -9,7 +9,8 @@ function ScrollToTopButton() {
 
   return (
     <button className="scrollb" onClick={handleClick}>
-      <FontAwesomeIcon icon={faChevronUp} />
+      <FontAwesomeIcon icon={faAnglesUp} />
+      
       
     </button>
   );
