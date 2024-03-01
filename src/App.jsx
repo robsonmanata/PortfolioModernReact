@@ -14,7 +14,7 @@ import About from './Components/Webdeveloper/about';
 import MessageSent from './Components/MessageSent/messageSent';
 import MessageNotSent from './Components/MessageSent/messageNotSent';
 import ScrollToTopButton from './Components/ScrollToTop/scrollToTop';
-import { Route,Routes,useLocation } from 'react-router-dom';
+import { Routes,Route,useLocation } from 'react-router-dom';
 
 import {useRef} from "react";
 import { useState,useEffect } from 'react';
