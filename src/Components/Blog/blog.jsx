@@ -5,7 +5,16 @@ import Responsivedesign from "/images/responsive-design-ss-1-800x450.jpg"
 import Accesible from "/images/Slide27articlesaccessible-design-for-users-with-disabilities.png"
 import Nodejslog from "/images/Rest.webp"
 
+
+
+
+
+
+
 function Blog(){
+
+
+
     return(
 
         <div className="blog">
