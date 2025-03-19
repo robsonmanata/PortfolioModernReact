@@ -1,5 +1,5 @@
 import "./about.css"
-import Robson from "/images/Robson.png"
+import Robson from "/images/3c1b5c59-de71-4a65-a4a8-3bcf24940482-modified.png"
 import Brain from "/images/brainstorm-power-thinking-abstract-brain-logo-vector-22755704-removebg-preview.png"
 import codesymbol from "/images/codesymbol.png"
 import database from "/images/database.png"
